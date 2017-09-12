@@ -1,0 +1,1 @@
+SELECT DISTINCT r.nombre,c.nombre FROM Usuario u JOIN u.usuarioRolCategoriaList urcl JOIN urcl.rolCategoria rc JOIN rc.rol r JOIN rc.categoria c WHERE u.username="Jhossymar Contreras"
